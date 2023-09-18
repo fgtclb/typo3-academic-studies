@@ -1,0 +1,26 @@
+# This is example code
+# Although this code is so functional, you may want to create your own templates
+page = PAGE
+page {
+  10 = FLUIDTEMPLATE
+  10 {
+    templateRootPaths {
+      0 = EXT:academic_studies/Resources/Private/Templates/
+    }
+    partialRootPaths {
+      0 = EXT:academic_studies/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+      0 = EXT:academic_studies/Resources/Private/Layouts/
+    }
+  }
+}
+
+lib.contentElement {
+  templateRootPaths {
+    edu = EXT:academic_studies/Resources/Private/Content/Templates/
+  }
+  layoutRootPaths {
+    edu = EXT:academic_studies/Resources/Private/Content/Layouts/
+  }
+}

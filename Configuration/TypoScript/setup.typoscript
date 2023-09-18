@@ -1,0 +1,4 @@
+@import 'EXT:academic_studies/Configuration/TypoScript/Content/'
+@import 'EXT:academic_studies/Configuration/TypoScript/BasicSetup/'
+@import 'EXT:academic_studies/Configuration/TypoScript/DataProcessors/'
+@import 'EXT:academic_studies/Configuration/TypoScript/Page/'

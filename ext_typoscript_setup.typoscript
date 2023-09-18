@@ -1,0 +1,7 @@
+module.tx_backend {
+  view {
+    partialRootPaths {
+      ec = EXT:academic_studies/Resources/Private/Backend/Partials/
+    }
+  }
+}

@@ -1,0 +1,5 @@
+lib.educationalCourse.topic < lib.educationalCourse.basic
+lib.educationalCourse.topic {
+  where.stdWrap.cObject.20.value = topic
+  as = topic
+}
