@@ -4,12 +4,6 @@
 	"description": "Study programme page for universities. Ships structured data preparation",
 	"minimum-stability": "stable",
 	"license": "GPL-2.0-or-later",
-	"repositories": {
-		"educational": {
-			"type": "vcs",
-			"url": "https://github.com/fgtclb/typo3-category-types"
-		}
-	},
 	"config": {
 		"vendor-dir": ".Build/vendor",
 		"bin-dir": ".Build/bin",
@@ -31,7 +25,7 @@
 	},
 	"require": {
 		"php": "^7.4",
-		"fgtclb/category-types": "dev-main",
+		"fgtclb/category-types": "^1.0",
 		"typo3/cms-backend": "^11.5",
 		"typo3/cms-core": "^11.5",
 		"typo3/cms-extbase": "^11.5",
@@ -52,12 +46,12 @@
 		"typo3/coding-standards": "^0.6.1"
 	},
 	"suggest": {
-		"b13/container": "Allowed container element options for course"
+		"b13/container": "Allowed container element options for course",
+		"fgtclb/page-backend-layout": "Add structured data layout to the backend"
 	},
 	"autoload": {
 		"psr-4": {
-			"FGTCLB\\AcademicStudies\\": "Classes/",
-			"FGTCLB\\AcademicStudies\\Migrations\\": "Migrations/"
+			"FGTCLB\\AcademicStudies\\": "Classes/"
 		}
 	},
 	"autoload-dev": {
