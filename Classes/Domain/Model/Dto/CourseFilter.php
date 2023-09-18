@@ -15,7 +15,8 @@ final class CourseFilter implements ArrayAccess
 {
     protected CategoryCollection $filterCategories;
 
-    private function __construct() {
+    private function __construct()
+    {
     }
 
     public static function createByCategoryCollection(CategoryCollection $categoryCollection): CourseFilter

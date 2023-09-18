@@ -1,6 +1,56 @@
 parameters:
 	ignoreErrors:
 		-
+			message: "#^Class FGTCLB\\\\AcademicStudies\\\\Domain\\\\Collection\\\\CategoryCollection implements generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: ../../../Classes/Domain/Collection/CategoryCollection.php
+
+		-
+			message: "#^Class FGTCLB\\\\AcademicStudies\\\\Domain\\\\Model\\\\Dto\\\\CourseFilter implements generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: ../../../Classes/Domain/Model/Dto/CourseFilter.php
+
+		-
+			message: "#^Call to method configureContainer\\(\\) on an unknown class B13\\\\Container\\\\Tca\\\\Registry\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/all_semesters.php
+
+		-
+			message: "#^Call to method setIcon\\(\\) on an unknown class B13\\\\Container\\\\Tca\\\\ContainerConfiguration\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/all_semesters.php
+
+		-
+			message: "#^Class B13\\\\Container\\\\Tca\\\\Registry not found\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/all_semesters.php
+
+		-
+			message: "#^Instantiated class B13\\\\Container\\\\Tca\\\\ContainerConfiguration not found\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/all_semesters.php
+
+		-
+			message: "#^Call to method configureContainer\\(\\) on an unknown class B13\\\\Container\\\\Tca\\\\Registry\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/semester.php
+
+		-
+			message: "#^Call to method setIcon\\(\\) on an unknown class B13\\\\Container\\\\Tca\\\\ContainerConfiguration\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/semester.php
+
+		-
+			message: "#^Class B13\\\\Container\\\\Tca\\\\Registry not found\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/semester.php
+
+		-
+			message: "#^Instantiated class B13\\\\Container\\\\Tca\\\\ContainerConfiguration not found\\.$#"
+			count: 1
+			path: ../../../Configuration/TCA/Overrides/Container/semester.php
+
+		-
 			message: "#^Variable \\$_EXTKEY might not be defined\\.$#"
 			count: 1
 			path: ../../../ext_emconf.php
