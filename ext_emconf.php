@@ -14,6 +14,8 @@ $EM_CONF[$_EXTKEY] = [
             'category_types' => '*',
         ],
         'conflicts' => [],
-        'suggests' => [],
+        'suggests' => [
+            'page_backend_layout' => '1.0-1.99',
+        ],
     ],
 ];
