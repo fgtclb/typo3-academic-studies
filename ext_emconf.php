@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
         ],
     ],
     'state' => 'beta',
-    'version' => '0.1.0',
+    'version' => '0.1.1',
     'category' => 'fe',
     'author_company' => 'FGTCLB GmbH',
     'author_email' => 'hello@fgtclb.com',
