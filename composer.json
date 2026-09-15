@@ -2,6 +2,7 @@
 	"name": "fgtclb/academic-studies",
 	"type": "typo3-cms-extension",
 	"description": "Study programme page for universities. Ships structured data preparation",
+	"abandoned": "fgtclb/academic-programs",
 	"minimum-stability": "stable",
 	"license": "GPL-2.0-or-later",
 	"config": {
